@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Elmah.Masking</id>
+    <version>1.0.0</version>
+    <authors>Paul Tew</authors>
+    <owners>paultew</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>https://github.com/paultew/Elmah.DataProtection</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Overloads the built-in Elmah ErrorLog classes to remove a predefined list of HttpRequest values from the Error.</description>
+    <copyright>Copyright 2013</copyright>
+    <tags>Elmah .ASPXAUTH</tags>
+    <dependencies>
+      <dependency id="elmah.corelibrary" version="1.2.2" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="src\Elmah.Masking\bin\Release\Elmah.Masking.dll" target="lib\net35" />
+	<file src="src\Elmah.Masking.net-4.0\bin\Release\Elmah.Masking.dll" target="lib\net40" />
+  </files>
+</package>

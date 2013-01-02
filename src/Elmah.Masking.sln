@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elmah.Masking", "Elmah.Masking\Elmah.Masking.csproj", "{AC34D1D2-B6A6-4C66-B944-00EF1CC994EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elmah.Masking.net-4.0", "Elmah.Masking.net-4.0\Elmah.Masking.net-4.0.csproj", "{DA0C10CB-2FBC-4A5A-A543-E5348C65E33A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{4AD125D9-496B-4FE1-97D4-4DF0D7449817}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A66F8559-5A1E-46D4-A280-5971C1D0BF2D}"
+	ProjectSection(SolutionItems) = preProject
+		Elmah.Masking.vsmdi = Elmah.Masking.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elmah.Masking.Test", "Elmah.Masking.Test\Elmah.Masking.Test.csproj", "{55075BF7-291F-4729-9171-BA8BBBBC3473}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Elmah.DataProtection.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC34D1D2-B6A6-4C66-B944-00EF1CC994EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC34D1D2-B6A6-4C66-B944-00EF1CC994EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC34D1D2-B6A6-4C66-B944-00EF1CC994EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC34D1D2-B6A6-4C66-B944-00EF1CC994EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA0C10CB-2FBC-4A5A-A543-E5348C65E33A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA0C10CB-2FBC-4A5A-A543-E5348C65E33A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA0C10CB-2FBC-4A5A-A543-E5348C65E33A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA0C10CB-2FBC-4A5A-A543-E5348C65E33A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55075BF7-291F-4729-9171-BA8BBBBC3473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55075BF7-291F-4729-9171-BA8BBBBC3473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55075BF7-291F-4729-9171-BA8BBBBC3473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55075BF7-291F-4729-9171-BA8BBBBC3473}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

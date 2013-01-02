@@ -1,3 +1,7 @@
+#OS junk files
+[Tt]humbs.db
+*.DS_Store
+
 # Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
 [Bb]in/
 [Oo]bj/
@@ -53,7 +57,9 @@ ipch/
 *.gpState
 
 # ReSharper is a .NET coding add-in
-_ReSharper*
+_ReSharper*/
+*.resharper
+[Tt]est[Rr]esult*
 
 # NCrunch
 *.ncrunch*
