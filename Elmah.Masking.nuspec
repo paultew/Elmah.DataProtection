@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Elmah.Masking</id>
-    <version>1.0.0</version>
+    <version>0.0.2</version>
     <authors>Paul Tew</authors>
     <owners>paultew</owners>
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
